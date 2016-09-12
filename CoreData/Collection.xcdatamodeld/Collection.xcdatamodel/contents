@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="7549" systemVersion="14A389" minimumToolsVersion="Xcode 4.3" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="MyCache" representedClassName="MyCache" syncable="YES">
+        <attribute name="cover" optional="YES" attributeType="Transformable" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="path" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="progress" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="MyCollection" representedClassName="MyCollection" syncable="YES">
+        <attribute name="category" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="consumption" optional="YES" attributeType="Transformable" syncable="YES"/>
+        <attribute name="cover" optional="YES" attributeType="Transformable" syncable="YES"/>
+        <attribute name="descriptionx" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="duration" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="playUrl" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="text" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="title" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="MyCollection" positionX="-36" positionY="9" width="128" height="165"/>
+        <element name="MyCache" positionX="-36" positionY="72" width="128" height="105"/>
+    </elements>
+</model>
